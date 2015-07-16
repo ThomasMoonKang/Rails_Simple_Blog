@@ -1,0 +1,11 @@
+<h1>New Article</h1>
+
+<%= render 'form' %>
+
+<%= link_to 'Back', articles_path %>
+
+<!-- A few things are going on. We check if there are any errors with @article.errors.any?, and in that case we show a list of all errors with @article.errors.full_messages.
+
+pluralize is a rails helper that takes a number and a string as its arguments. If the number is greater than one, the string will be automatically pluralized.
+
+The reason why we added @article = Article.new in the ArticlesController is that otherwise @article would be nil in our view, and calling @article.errors.any? would throw an error. -->
