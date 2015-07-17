@@ -1,5 +1,11 @@
 == README
 
+Simple blog made in Ruby on Rails
+
+With index, show, new, edit, create, update, and destroy functions.
+
+
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
